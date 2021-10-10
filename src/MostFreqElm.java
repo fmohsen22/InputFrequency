@@ -27,19 +27,6 @@ public class MostFreqElm {
             }
         }
 
-        // find max frequency.
-    //    int max_count = 0, res = -1;
-
-    //    for(Map.Entry<Integer, Integer> val : frequencyMap.entrySet())
-    //    {
-    //        if (max_count < val.getValue())
-    //        {
-    //            res = val.getKey();
-    //            max_count = val.getValue();
-    //        }
-    //    }
-
-    //    return res;
 
         int max_count = 0;
         // If there are several intigers with the same frquency then we can add all or them in the list
